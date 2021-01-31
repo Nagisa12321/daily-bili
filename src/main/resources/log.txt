@@ -1,0 +1,12 @@
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 9
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2737
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 5
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2672
