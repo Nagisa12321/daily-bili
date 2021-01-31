@@ -14,6 +14,14 @@ public class loadUtil {
     private static final Logger logger = Logger.getLogger(loadUtil.class);
     private static Properties URLProperties = null;
     private static Properties ConnectProperties = null;
+    private static Properties TaskProperties = null;
+
+    public static Properties getTaskProperties() {
+        if (TaskProperties == null) {
+            TaskProperties = getProperties("task");
+        }
+        return TaskProperties;
+    }
 
     public static Properties getURLProperties() {
         if (URLProperties == null) {
@@ -24,7 +32,7 @@ public class loadUtil {
 
     public static Properties getConnectProperties() {
         if (ConnectProperties == null) {
-            ConnectProperties = getProperties("url");
+            ConnectProperties = getProperties("connect");
         }
         return ConnectProperties;
     }

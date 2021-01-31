@@ -1,10 +1,27 @@
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.jtchen.util.Request;
+import com.jtchen.util.loadUtil;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpUriRequest;
+import org.apache.http.client.methods.RequestBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.util.EntityUtils;
 import org.junit.Test;
 
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.Map;
 import java.util.Scanner;
+
+import static com.jtchen.util.CheckUtil.checkEnv;
 
 /**
  * @author jtchen
@@ -57,7 +74,48 @@ public class CoinsTest {
     }
 
     @Test
-    public void putCoinTest() {
+    public void putCoinTest() throws Exception{
+        var user = checkEnv();
+        assert user != null;
+        Request.setCookie(user.getCookie());
 
+        var data = new JSONObject();
+        data.put("aid", "586410702");
+        data.put("multiply", "1");
+        data.put("select_like", "0");
+        data.put("cross_domain", "true");
+        data.put("csrf", user.getCookie().getBili_jct());
+
+        /*var res = Request.post("https://api.bilibili.com/x/web-interface/coin/add", data);*/
+
+        var request = RequestBuilder.create(HttpPost.METHOD_NAME)
+                .addHeader("connection", "keep-alive")
+                .addHeader("referer", "https://www.bilibili.com/")
+                .addHeader("User-Agent", loadUtil.getConnectProperties().getProperty("User-Agent"))
+                .addHeader("Cookie", user.getCookie().toString())
+                .addHeader("accept", "application/json, text/plain, */*")
+                .addHeader("Content-Type", "application/x-www-form-urlencoded")
+                .addHeader("charset", "UTF-8")
+                .setUri("https://api.bilibili.com/x/web-interface/coin/add")
+                .addParameters(getPairList(data))
+                .build();
+        try (CloseableHttpClient client = HttpClients.createDefault()) {
+            HttpResponse resp = client.execute(request);
+            HttpEntity entity = resp.getEntity();
+            String respContent = EntityUtils.toString(entity, StandardCharsets.UTF_8);
+            var j =  JSON.parseObject(respContent);
+
+            System.out.println(j);
+        } catch (Exception e) {
+
+        }
+    }
+
+    public static NameValuePair[] getPairList(JSONObject pJson) {
+        return pJson.entrySet().parallelStream().map(CoinsTest::getNameValuePair).toArray(NameValuePair[]::new);
+    }
+
+    private static NameValuePair getNameValuePair(Map.Entry<String, Object> entry) {
+        return new BasicNameValuePair(entry.getKey(), (String) entry.getValue());
     }
 }

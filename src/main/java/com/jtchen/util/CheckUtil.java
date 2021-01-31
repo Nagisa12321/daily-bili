@@ -32,7 +32,7 @@ public class CheckUtil {
 
     public static boolean checkUser(User user) {
         try {
-            var USERObj = Request.get(URLProperties.getProperty("User-Info"));
+            var USERObj = Request.get(URLProperties.getProperty("User-Info"), new JSONObject());
             if (USERObj == null) return false;
             var data = USERObj.getJSONObject("data");
             /* 用户名 */

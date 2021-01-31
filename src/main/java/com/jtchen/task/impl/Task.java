@@ -6,4 +6,5 @@ package com.jtchen.task.impl;
  * @date 2021/1/31 22:08
  */
 public interface Task {
+    void run();
 }

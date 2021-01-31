@@ -9,6 +9,11 @@ public class Cookie {
     private final String DedeUserID;
     private final String bili_jct;
     private final String SESSDATA;
+
+    public String getBili_jct() {
+        return bili_jct;
+    }
+
     private final String DedeUserID__ckMd5;
 
     public Cookie(String dedeUserID, String bili_jct, String SESSDATA, String DedeUserID__ckMd5) {

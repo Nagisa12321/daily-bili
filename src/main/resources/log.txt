@@ -10,3 +10,921 @@
 [main] INFO com.jtchen.App - ✔ 『当前硬币』 5
 [main] INFO com.jtchen.App - ✔ 『当前等级』 5
 [main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2672
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 5
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2672
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 5
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2672
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] ERROR com.jtchen.util.Request - 响应码为412
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 5
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2672
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] ERROR com.jtchen.util.Request - 响应码为412
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] ERROR com.jtchen.util.Request - 响应码为412
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.246.60:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.246.60:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:58152<->139.159.246.60:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 97
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 97[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=BV1oX4y1P7m2"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 15:50:40 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 92[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: -400[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 26910516676016d1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":-400,"message":"strconv.ParseInt: parsing \"BV1oX4y1P7m2\": invalid syntax","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 15:50:40 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 92
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: -400
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 26910516676016d1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:59201<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 95
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 95[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=1oX4y1P7m2"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 15:54:20 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 90[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: -400[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 73df6229936016d2[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":-400,"message":"strconv.ParseInt: parsing \"1oX4y1P7m2\": invalid syntax","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 15:54:20 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 90
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: -400
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 73df6229936016d2
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:59409<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 91
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 91[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=123123"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 15:55:02 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 75[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: 10003[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 119ce6ae3b6016d2[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":10003,"message":"[0xe4][0xb8][0x8d][0xe5][0xad][0x98][0xe5][0x9c][0xa8][0xe8][0xaf][0xa5][0xe7][0xa8][0xbf][0xe4][0xbb][0xb6]","ttl":1,"data":{"like":false}}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 15:55:02 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 75
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: 10003
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 119ce6ae3b6016d2
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:59656<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 95
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 95[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=1561651648"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 15:55:51 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 68[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: -404[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 15c86d82796016d3[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":-404,"message":"[0xe5][0x95][0xa5][0xe9][0x83][0xbd][0xe6][0x9c][0xa8][0xe6][0x9c][0x89]","ttl":1,"data":{"like":false}}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 15:55:51 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 68
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: -404
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 15c86d82796016d3
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-13
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:60956<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 96
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 96[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=av586410702"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 16:00:12 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 91[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: -400[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 7226664eb86016d4[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":-400,"message":"strconv.ParseInt: parsing \"av586410702\": invalid syntax","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 16:00:12 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 91
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: -400
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 7226664eb86016d4
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:61060<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 94
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 94[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "cross_domain=true&select_like=0&csrf=54bb0ce136c960aab187d6f8ab204f58&multiply=1&aid=586410702"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 16:00:32 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length: 54[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 12ce4edc16016d4[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "{"code":0,"message":"0","ttl":1,"data":{"like":false}}"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 16:00:32 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length: 54
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: 0
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 12ce4edc16016d4
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.252.156:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.252.156:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62239<->139.159.252.156:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /x/web-interface/nav HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 17:02:45 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 24c4950cf56016e2[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: bfe_id=6f285c892d9d3c1f8f020adad8bed553; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:12:45 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Expires: Sun, 31 Jan 2021 17:02:44 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-06[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "266[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x94]S?o[0xd4]0[0x14][0xff].f=[0xee][0x9c]\r[0xb9]dD[0x15][0x3]b@[0x2]!6[0xcb]q[0xec][0x8b][0xc1][0xb1][0xa3][0xd8][0xb9][0xf6]T[0xdd][0x6][0xea][0xc2][0xc2][0x0]B[0x9d][0x11]][0x18]@bhQ?N[0x8f][0x8a]o[0xc1]{IKU[0x84]@d[0xc9][0xfb][0xff]~[0xbf][0xf7][0x9e][0xf][0x89]p[0x95]$[0x5][0x9d][0x90]Fz[0xcf]W [0x13]J&$[0x4]C[0x8a]hB*[0x1e]8)[0xe][0x89][0xf6][0xf][0xdd]J[R[0x84][0xae][0x97][0x13]"[0x1b][0xae][\r][[0xcb]N+-[0xab]!Rq[0x81][0xc9]u[0x8]m1[0x9b][0xe9]xZW[0xde][0x94]S[0xe1][0x9a]Y[0xa9][0xfc][0xc][0xdd][0xb3]9[0x8d]E[0x9a][0xa9][0x94][0xc6]%[0x8d]UN[0x17]QEK[0x15]Wr)e*UR[0x95]y&[0xd4]"[0x9f]>oW[0x0][0xc2][0xc8][0xb5]4L[[0xe5][0x10][0x82][0xe8][0xbb]N[0xda][0xc0][0x6]+)[0xd2][0xc9]/K[0x83][0xc0]"[0xba][0xa4][0xf4][0xc6]&[0xf]ZR[0xc4][0x8b]([0xc9]&[0xc4][0xca][0x83]k[0xc3][0x12][0x82][0xb6]@V#[0xe8]EL[0xe3]e[0xb2]L@w[0xa5]6[0xf2]6[0xa1][0xc6]Y[0xb9]!E2[0x1d][0xe4][0x8e]C[0xcf][0xc][0x1a]8[0xa5][0xb4][0xd0][0xa8][0x1d][0x92][0xce][0x99]qxA[0x7][0x94][0x8][0x80][0xae][0xa4][0x17][0xa3][0x14]6-[0xd8][0xee]F[0xdb][0x9b][0xa4][0xa7][0xd8]`[0x83][0xa9][0xd7][0xce][0x9b][0x4][0x8]k[0xa5][0xad][0xb8][\r][0xe8]o[0x11]a[0x9c][0xcf][0x1]=o[0xb0][0xf4][0xee][0xe8]lwtzq[0xfa][0xee][0xf2][0xed]k([0xae][0x9b]qY[0x9d]w[0x92]&K[0x9a][0xcc][0xab]4[0x11]Td[0x9c][0xb][0x91]%J[0x89]e[0x6]?[0xae]*Q[0xc6]Q[0x1e][0xd1]8[0x9f][0xb6][0x16][0xe7][\r]#[0xd2][0xdd]Hh([0xcf][0xa4][0xad][0xb9][0xfd][0xf7]Z[0xff][0xb3][0xcd][0xad][0xda]Lu#?[0xe4][0xef][0x85][0xeb][0xa4][0x1f][0x0][0xf4]W[0xb4][0x1f]={py[0xfc][0xf2][0xfb][0xa7][0x93][0xdd][0xe7][0xf3][0x1f][0xaf][0xbe]@[0xfa]Z[0xb7]{[0xbd][0xdc][0xe3]A[0xe2][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xa3]y[0x9a]e[0xb][0x8a][0xdf][0xe0]z[0x1c]x[0xe8][0xfd][0xb0]@[0xd0][0x9e][0xc]S[0x8e][0x7][0x99][0xb5]|[0xc3][0xc6][0xb1][0x8f][0xa1],[0xd4][0xb2][0x91][0xb7]M[0x86][0x97]x\0[0x1e][0xea][0xab]5[0xc2][0xf5][0xe0][0xfc][0xcf][0xbe][0xee][0xbe]}[0xdc]}8[0xb9]8?[0xde][0xbd]y[0x8f][0xe7][0x89][0xb1]c[0x11][0xf0]sk{[0xe]oB[0xb7][0xc8][0x4]k[0xf1]5<[0x9e][0x8e][0xf9][0xbe][0xf4][0xa2][0xd3]m[0xb8][0x6][0xc5][0xac][0x16]/[0x90][0x1e][0x13][0xce][0xb8][0xe]r[0xef][0xdc][0xbf][0x97][0xc5]y[0xe]5[0xf7][0xb9]1r8[0x80][0xdf]O[0xb4][0x14]N[Vr3n[0x4]O[0xdd][0xf5][0xad][0xfb][0xa3][0xa9][0xea][0x81][0x96]FXx[0xec]5[0xf7][0xcc][0xd7][0xe][0xce]_q[0xe3][0xe1][0xf5][0xa2][0xc2][0xfa][0xce][0x8c][0xfc][0xa0][0xa3][0xdb][0x1f]V[0x1][0xd9]x|P[0x87][[0xbf]/[0x1][0xfa][0xd5]0[0xe9]v[0xfb][0x13][0x0][0x0][0xff][0xff][\r][\n]"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 17:02:45 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: 0
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 24c4950cf56016e2
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Set-Cookie: bfe_id=6f285c892d9d3c1f8f020adad8bed553; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:12:45 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Expires: Sun, 31 Jan 2021 17:02:44 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Cache-Control: no-cache
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-06
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Encoding: gzip
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [bfe_id="6f285c892d9d3c1f8f020adad8bed553", version:0, domain:api.bilibili.com, path:/, expiry:Mon Feb 01 01:12:45 CST 2021]
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x3][0x0]0[0xad][0x1f]{*[0x4][0x0][0x0][\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 4.1
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2653
+[main] INFO com.jtchen.App - ✔ 进入投币环节
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.252.156:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.252.156:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62241<->139.159.252.156:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 24
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 24[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "null&null&null&null&null"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Date: Sun, 31 Jan 2021 17:02:45 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length: 51[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Status-Code: -111[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Trace-Id: 3710409e936016e2[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-04[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "{"code":-111,"message":"csrf [0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe5][0xa4][0xb1][0xe8][0xb4][0xa5]","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Date: Sun, 31 Jan 2021 17:02:45 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length: 51
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Status-Code: -111
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Trace-Id: 3710409e936016e2
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-04
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.task.CoinTask - ✔ 『投币』给视频 av801437152 投了 1个硬币
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.246.60:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.246.60:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62745<->139.159.246.60:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /x/web-interface/nav HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 17:04:28 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: 36df70943d6016e3[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: bfe_id=603589b7ce5e180726bfa88808aa8947; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:14:28 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Expires: Sun, 31 Jan 2021 17:04:27 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "266[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x94]S?o[0xd4]0[0x14][0xff].f=[0xee][0x9c]\r[0xb9]dD[0x15][0x3]b@[0x2]!6[0xcb]q[0xec][0x8b][0xc1][0xb1][0xa3][0xd8][0xb9][0xf6]T[0xdd][0x6][0xea][0xc2][0xc2][0x0]B[0x9d][0x11]][0x18]@bhQ?N[0x8f][0x8a]o[0xc1]{IKU[0x84]@d[0xc9][0xfb][0xff]~[0xbf][0xf7][0x9e][0xf][0x89]p[0x95]$[0x5][0x9d][0x90]Fz[0xcf]W [0x13]J&$[0x4]C[0x8a]hB*[0x1e]8)[0xe][0x89][0xf6][0xf][0xdd]J[R[0x84][0xae][0x97][0x13]"[0x1b][0xae][\r][[0xcb]N+-[0xab]!Rq[0x81][0xc9]u[0x8]m1[0x9b][0xe9]xZW[0xde][0x94]S[0xe1][0x9a]Y[0xa9][0xfc][0xc][0xdd][0xb3]9[0x8d]E[0x9a][0xa9][0x94][0xc6]%[0x8d]UN[0x17]QEK[0x15]Wr)e*UR[0x95]y&[0xd4]"[0x9f]>oW[0x0][0xc2][0xc8][0xb5]4L[[0xe5][0x10][0x82][0xe8][0xbb]N[0xda][0xc0][0x6]+)[0xd2][0xc9]/K[0x83][0xc0]"[0xba][0xa4][0xf4][0xc6]&[0xf]ZR[0xc4][0x8b]([0xc9]&[0xc4][0xca][0x83]k[0xc3][0x12][0x82][0xb6]@V#[0xe8]EL[0xe3]e[0xb2]L@w[0xa5]6[0xf2]6[0xa1][0xc6]Y[0xb9]!E2[0x1d][0xe4][0x8e]C[0xcf][0xc][0x1a]8[0xa5][0xb4][0xd0][0xa8][0x1d][0x92][0xce][0x99]qxA[0x7][0x94][0x8][0x80][0xae][0xa4][0x17][0xa3][0x14]6-[0xd8][0xee]F[0xdb][0x9b][0xa4][0xa7][0xd8]`[0x83][0xa9][0xd7][0xce][0x9b][0x4][0x8]k[0xa5][0xad][0xb8][\r][0xe8]o[0x11]a[0x9c][0xcf][0x1]=o[0xb0][0xf4][0xee][0xe8]lwtzq[0xfa][0xee][0xf2][0xed]k([0xae][0x9b]qY[0x9d]w[0x92]&K[0x9a][0xcc][0xab]4[0x11]Td[0x9c][0xb][0x91]%J[0x89]e[0x6]?[0xae]*Q[0xc6]Q[0x1e][0xd1]8[0x9f][0xb6][0x16][0xe7][\r]#[0xd2][0xdd]Hh([0xcf][0xa4][0xad][0xb9][0xfd][0xf7]Z[0xff][0xb3][0xcd][0xad][0xda]Lu#?[0xe4][0xef][0x85][0xeb][0xa4][0x1f][0x0][0xf4]W[0xb4][0x1f]={py[0xfc][0xf2][0xfb][0xa7][0x93][0xdd][0xe7][0xf3][0x1f][0xaf][0xbe]@[0xfa]Z[0xb7]{[0xbd][0xdc][0xe3]A[0xe2][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xa3]y[0x9a]e[0xb][0x8a][0xdf][0xe0]z[0x1c]x[0xe8][0xfd][0xb0]@[0xd0][0x9e][0xc]S[0x8e][0x7][0x99][0xb5]|[0xc3][0xc6][0xb1][0x8f][0xa1],[0xd4][0xb2][0x91][0xb7]M[0x86][0x97]x\0[0x1e][0xea][0xab]5[0xc2][0xf5][0xe0][0xfc][0xcf][0xbe][0xee][0xbe]}[0xdc]}8[0xb9]8?[0xde][0xbd]y[0x8f][0xe7][0x89][0xb1]c[0x11][0xf0]sk{[0xe]oB[0xb7][0xc8][0x4]k[0xf1]5<[0x9e][0x8e][0xf9][0xbe][0xf4][0xa2][0xd3]m[0xb8][0x6][0xc5][0xac][0x16]/[0x90][0x1e][0x13][0xce][0xb8][0xe]r[0xef][0xdc][0xbf][0x97][0xc5]y[0xe]5[0xf7][0xb9]1r8[0x80][0xdf]O[0xb4][0x14]N[Vr3n[0x4]O[0xdd][0xf5][0xad][0xfb][0xa3][0xa9][0xea][0x81][0x96]FXx[0xec]5[0xf7][0xcc][0xd7][0xe][0xce]_q[0xe3][0xe1][0xf5][0xa2][0xc2][0xfa][0xce][0x8c][0xfc][0xa0][0xa3][0xdb][0x1f]V[0x1][0xd9]x|P[0x87][[0xbf]/[0x1][0xfa][0xd5]0[0xe9]v[0xfb][0x13][0x0][0x0][0xff][0xff][\r][\n]"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 17:04:28 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: 0
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: 36df70943d6016e3
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Set-Cookie: bfe_id=603589b7ce5e180726bfa88808aa8947; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:14:28 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Expires: Sun, 31 Jan 2021 17:04:27 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Cache-Control: no-cache
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Encoding: gzip
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [bfe_id="603589b7ce5e180726bfa88808aa8947", version:0, domain:api.bilibili.com, path:/, expiry:Mon Feb 01 01:14:28 CST 2021]
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x3][0x0]0[0xad][0x1f]{*[0x4][0x0][0x0][\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 4.1
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2653
+[main] INFO com.jtchen.App - ✔ 进入投币环节
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.246.60:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.246.60:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62751<->139.159.246.60:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 24
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 24[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "null&null&null&null&null"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Date: Sun, 31 Jan 2021 17:04:28 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length: 51[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Status-Code: -111[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Trace-Id: 395a0c8c1c6016e3[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "{"code":-111,"message":"csrf [0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe5][0xa4][0xb1][0xe8][0xb4][0xa5]","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Date: Sun, 31 Jan 2021 17:04:28 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length: 51
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Status-Code: -111
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Trace-Id: 395a0c8c1c6016e3
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-08
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.task.CoinTask - ✔ 『投币』给视频 av801437152 投了 1个硬币
+[main] INFO com.jtchen.App - ✔ 相关信息配置完善, 开始检查用户信息
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62917<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /x/web-interface/nav HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /x/web-interface/nav HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Sun, 31 Jan 2021 17:05:02 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Status-Code: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Bili-Trace-Id: a9ab64f2c6016e3[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Set-Cookie: bfe_id=018fcd81e698bbc7e0648e86bdc49e09; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:15:02 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Expires: Sun, 31 Jan 2021 17:05:01 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "266[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x94]S?o[0xd4]0[0x14][0xff].f=[0xee][0x9c]\r[0xb9]dD[0x15][0x3]b@[0x2]!6[0xcb]q[0xec][0x8b][0xc1][0xb1][0xa3][0xd8][0xb9][0xf6]T[0xdd][0x6][0xea][0xc2][0xc2][0x0]B[0x9d][0x11]][0x18]@bhQ?N[0x8f][0x8a]o[0xc1]{IKU[0x84]@d[0xc9][0xfb][0xff]~[0xbf][0xf7][0x9e][0xf][0x89]p[0x95]$[0x5][0x9d][0x90]Fz[0xcf]W [0x13]J&$[0x4]C[0x8a]hB*[0x1e]8)[0xe][0x89][0xf6][0xf][0xdd]J[R[0x84][0xae][0x97][0x13]"[0x1b][0xae][\r][[0xcb]N+-[0xab]!Rq[0x81][0xc9]u[0x8]m1[0x9b][0xe9]xZW[0xde][0x94]S[0xe1][0x9a]Y[0xa9][0xfc][0xc][0xdd][0xb3]9[0x8d]E[0x9a][0xa9][0x94][0xc6]%[0x8d]UN[0x17]QEK[0x15]Wr)e*UR[0x95]y&[0xd4]"[0x9f]>oW[0x0][0xc2][0xc8][0xb5]4L[[0xe5][0x10][0x82][0xe8][0xbb]N[0xda][0xc0][0x6]+)[0xd2][0xc9]/K[0x83][0xc0]"[0xba][0xa4][0xf4][0xc6]&[0xf]ZR[0xc4][0x8b]([0xc9]&[0xc4][0xca][0x83]k[0xc3][0x12][0x82][0xb6]@V#[0xe8]EL[0xe3]e[0xb2]L@w[0xa5]6[0xf2]6[0xa1][0xc6]Y[0xb9]!E2[0x1d][0xe4][0x8e]C[0xcf][0xc][0x1a]8[0xa5][0xb4][0xd0][0xa8][0x1d][0x92][0xce][0x99]qxA[0x7][0x94][0x8][0x80][0xae][0xa4][0x17][0xa3][0x14]6-[0xd8][0xee]F[0xdb][0x9b][0xa4][0xa7][0xd8]`[0x83][0xa9][0xd7][0xce][0x9b][0x4][0x8]k[0xa5][0xad][0xb8][\r][0xe8]o[0x11]a[0x9c][0xcf][0x1]=o[0xb0][0xf4][0xee][0xe8]lwtzq[0xfa][0xee][0xf2][0xed]k([0xae][0x9b]qY[0x9d]w[0x92]&K[0x9a][0xcc][0xab]4[0x11]Td[0x9c][0xb][0x91]%J[0x89]e[0x6]?[0xae]*Q[0xc6]Q[0x1e][0xd1]8[0x9f][0xb6][0x16][0xe7][\r]#[0xd2][0xdd]Hh([0xcf][0xa4][0xad][0xb9][0xfd][0xf7]Z[0xff][0xb3][0xcd][0xad][0xda]Lu#?[0xe4][0xef][0x85][0xeb][0xa4][0x1f][0x0][0xf4]W[0xb4][0x1f]={py[0xfc][0xf2][0xfb][0xa7][0x93][0xdd][0xe7][0xf3][0x1f][0xaf][0xbe]@[0xfa]Z[0xb7]{[0xbd][0xdc][0xe3]A[0xe2][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0xa3]y[0x9a]e[0xb][0x8a][0xdf][0xe0]z[0x1c]x[0xe8][0xfd][0xb0]@[0xd0][0x9e][0xc]S[0x8e][0x7][0x99][0xb5]|[0xc3][0xc6][0xb1][0x8f][0xa1],[0xd4][0xb2][0x91][0xb7]M[0x86][0x97]x\0[0x1e][0xea][0xab]5[0xc2][0xf5][0xe0][0xfc][0xcf][0xbe][0xee][0xbe]}[0xdc]}8[0xb9]8?[0xde][0xbd]y[0x8f][0xe7][0x89][0xb1]c[0x11][0xf0]sk{[0xe]oB[0xb7][0xc8][0x4]k[0xf1]5<[0x9e][0x8e][0xf9][0xbe][0xf4][0xa2][0xd3]m[0xb8][0x6][0xc5][0xac][0x16]/[0x90][0x1e][0x13][0xce][0xb8][0xe]r[0xef][0xdc][0xbf][0x97][0xc5]y[0xe]5[0xf7][0xb9]1r8[0x80][0xdf]O[0xb4][0x14]N[Vr3n[0x4]O[0xdd][0xf5][0xad][0xfb][0xa3][0xa9][0xea][0x81][0x96]FXx[0xec]5[0xf7][0xcc][0xd7][0xe][0xce]_q[0xe3][0xe1][0xf5][0xa2][0xc2][0xfa][0xce][0x8c][0xfc][0xa0][0xa3][0xdb][0x1f]V[0x1][0xd9]x|P[0x87][[0xbf]/[0x1][0xfa][0xd5]0[0xe9]v[0xfb][0x13][0x0][0x0][0xff][0xff][\r][\n]"
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Sun, 31 Jan 2021 17:05:02 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Transfer-Encoding: chunked
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Status-Code: 0
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Bili-Trace-Id: a9ab64f2c6016e3
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Set-Cookie: bfe_id=018fcd81e698bbc7e0648e86bdc49e09; Path=/; Max-Age=600; Expires=Sun, 31-Jan-21 17:15:02 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Expires: Sun, 31 Jan 2021 17:05:01 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Cache-Control: no-cache
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12
+[main] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Encoding: gzip
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.client.protocol.ResponseProcessCookies - Cookie accepted [bfe_id="018fcd81e698bbc7e0648e86bdc49e09", version:0, domain:api.bilibili.com, path:/, expiry:Mon Feb 01 01:15:02 CST 2021]
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "a[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[0x3][0x0]0[0xad][0x1f]{*[0x4][0x0][0x0][\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "0[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.App - ✔ 解析用户信息成功o(*￣▽￣*)ブ
+[main] INFO com.jtchen.App - ✔ 亲爱的 PXJ的欧尼酱欢迎使用 daily-bili
+[main] INFO com.jtchen.App - ✔ 『当前硬币』 4.1
+[main] INFO com.jtchen.App - ✔ 『当前等级』 5
+[main] INFO com.jtchen.App - ✔ 『升级所需的经验』 2653
+[main] INFO com.jtchen.App - ✔ 进入投币环节
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.bilibili.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.bilibili.com/139.159.227.6:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.bilibili.com/139.159.227.6:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.bilibili.com, O=上海幻电信息科技有限公司, L=上海, ST=上海, C=CN
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.bilibili.com, bilibili.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GlobalSign RSA OV SSL CA 2018, O=GlobalSign nv-sa, C=BE
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.1.108:62920<->139.159.227.6:443
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /x/web-interface/coin/add HTTP/1.1
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Referer: https://www.bilibili.com/
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> accept: application/json, text/plain, */*
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> charset: UTF-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 24
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: api.bilibili.com
+[main] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /x/web-interface/coin/add HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Referer: https://www.bilibili.com/[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36 Edg/88.0.705.53[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Cookie: DedeUserID=162028484; SESSDATA=8d9463b1%2C1619348642%2C00a0d*a1; bili_jct=54bb0ce136c960aab187d6f8ab204f58; DedeUserID__ckMd5=349c47508db7c173;[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "accept: application/json, text/plain, */*[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "charset: UTF-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 24[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: api.bilibili.com[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 >> "null&null&null&null&null"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Date: Sun, 31 Jan 2021 17:05:03 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length: 51[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Status-Code: -111[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Bili-Trace-Id: 508a2d44796016e3[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "Access-Control-Expose-Headers: X-Cache-Webcdn[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+[main] DEBUG org.apache.http.wire - http-outgoing-1 << "{"code":-111,"message":"csrf [0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe5][0xa4][0xb1][0xe8][0xb4][0xa5]","ttl":1}"
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Date: Sun, 31 Jan 2021 17:05:03 GMT
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length: 51
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Status-Code: -111
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Bili-Trace-Id: 508a2d44796016e3
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << Access-Control-Expose-Headers: X-Cache-Webcdn
+[main] DEBUG org.apache.http.headers - http-outgoing-1 << X-Cache-Webcdn: BYPASS from hw-gz3-webcdn-12
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 1][route: {s}->https://api.bilibili.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {s}->https://api.bilibili.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager is shutting down
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection manager shut down
+[main] INFO com.jtchen.task.CoinTask - ✔ 『投币』给视频 av801437152 投了 1个硬币
