@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "status": true,
+  "data": {
+    "login": false,
+    "watch_av": false,
+    "coins_av": 0,
+    "share_av": false,
+    "email": true,
+    "tel": true,
+    "safequestion": false,
+    "identify_card": true,
+    "level_info": {
+      "current_level": 5,
+      "current_min": 10800,
+      "current_exp": 26272,
+      "next_exp": 28800
+    }
+  }
+}

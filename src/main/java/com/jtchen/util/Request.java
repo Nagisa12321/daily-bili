@@ -13,7 +13,6 @@ import org.apache.http.util.EntityUtils;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
-import java.net.ProtocolException;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
 
@@ -33,33 +32,35 @@ public class Request {
         Request.cookie = cookie;
     }
 
-    public static JSONObject get(String url) throws ProtocolException {
+    public static JSONObject get(String url) {
         return get(url, new JSONObject());
     }
 
-    public static JSONObject get(String url, JSONObject data) throws ProtocolException {
-        var getRequest = getBasicConnection(url, HttpGet.METHOD_NAME, data);
-        if (getRequest == null) {
+    public static JSONObject get(String url, JSONObject data) {
+        var requestBuilder = getBasicConnection(url, HttpGet.METHOD_NAME);
+        if (requestBuilder == null) {
+            logger.error("requestBuilder获取错误");
+            return null;
+        }
+        requestBuilder.addParameters(getPairList(data));
+        return Client(requestBuilder.build());
+    }
+
+    public static JSONObject post(String url, JSONObject data) {
+        var requestBuilder = getBasicConnection(url, HttpPost.METHOD_NAME);
+        if (requestBuilder == null) {
             logger.error("getRequest获取错误");
             return null;
         }
-        return Client(getRequest);
+        requestBuilder.addHeader("accept", connProperties.getProperty("accept"))
+                .addHeader("Content-Type", connProperties.getProperty("Content-Type"))
+                .addHeader("charset", connProperties.getProperty("charset"))
+                .addParameters(getPairList(data));
+
+        return Client(requestBuilder.build());
     }
 
-    public static JSONObject post(String url, JSONObject data) throws ProtocolException {
-        var postRequest = getBasicConnection(url, HttpPost.METHOD_NAME, data);
-        if (postRequest == null) {
-            logger.error("getRequest获取错误");
-            return null;
-        }
-        postRequest.addHeader("accept", connProperties.getProperty("accept"));
-        postRequest.addHeader("Content-Type", connProperties.getProperty("Content-Type"));
-        postRequest.addHeader("charset", connProperties.getProperty("charset"));
-
-        return Client(postRequest);
-    }
-
-    private static HttpUriRequest getBasicConnection(String url, String method, JSONObject data) {
+    private static RequestBuilder getBasicConnection(String url, String method) {
         if (cookie == null) {
             logger.error("Request没有录入相应cookie");
             return null;
@@ -70,9 +71,7 @@ public class Request {
                 .addHeader("Connection", connProperties.getProperty("connection"))
                 .addHeader("User-Agent", connProperties.getProperty("User-Agent"))
                 .addHeader("Cookie", cookie.toString())
-                .setUri(url)
-                .addParameters(getPairList(data))
-                .build();
+                .setUri(url);
 
     }
 

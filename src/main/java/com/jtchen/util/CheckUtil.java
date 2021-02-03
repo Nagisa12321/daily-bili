@@ -31,40 +31,35 @@ public class CheckUtil {
     }
 
     public static boolean checkUser(User user) {
-        try {
-            var USERObj = Request.get(URLProperties.getProperty("User-Info"), new JSONObject());
-            if (USERObj == null) return false;
-            var data = USERObj.getJSONObject("data");
-            /* 用户名 */
-            user.setUname((String) data.get("uname"));
+        var USERObj = Request.get(URLProperties.getProperty("User-Info"), new JSONObject());
+        if (USERObj == null) return false;
+        var data = USERObj.getJSONObject("data");
+        /* 用户名 */
+        user.setUname((String) data.get("uname"));
 
-            /* 账户的uid */
-            user.setUid(String.valueOf(data.get("mid")));
+        /* 账户的uid */
+        user.setUid(String.valueOf(data.get("mid")));
 
-            /* vip类型 */
-            user.setVipType(String.valueOf(data.get("vipType")));
+        /* vip类型 */
+        user.setVipType(String.valueOf(data.get("vipType")));
 
-            /* 硬币数 */
-            user.setMoney(String.valueOf(data.get("money")));
+        /* 硬币数 */
+        user.setMoney(String.valueOf(data.get("money")));
 
-            /* 经验 */
-            JSONObject level_info = data.getJSONObject("level_info");
-            user.setCurrentExp(String.valueOf(level_info.get("current_exp")));
+        /* 经验 */
+        JSONObject level_info = data.getJSONObject("level_info");
+        user.setCurrentExp(String.valueOf(level_info.get("current_exp")));
 
-            /* 大会员状态 */
-            JSONObject vip_label = data.getJSONObject("vip_label");
-            user.setVipStatus((String) (vip_label.get("text")));
+        /* 大会员状态 */
+        JSONObject vip_label = data.getJSONObject("vip_label");
+        user.setVipStatus((String) (vip_label.get("text")));
 
-            /* 升级到下一级所需要的经验 */
-            user.setNextExp(String.valueOf(level_info.get("next_exp")));
+        /* 升级到下一级所需要的经验 */
+        user.setNextExp(String.valueOf(level_info.get("next_exp")));
 
-            /* 获取当前的等级 */
-            user.setCurrentLevel(String.valueOf(level_info.get("current_level")));
+        /* 获取当前的等级 */
+        user.setCurrentLevel(String.valueOf(level_info.get("current_level")));
 
-        } catch (ProtocolException e) {
-            logger.error(e);
-            return false;
-        }
         return true;
     }
 }

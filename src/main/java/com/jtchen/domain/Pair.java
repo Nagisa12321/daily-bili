@@ -1,4 +1,4 @@
-package com.jtchen.util;
+package com.jtchen.domain;
 
 import org.apache.http.NameValuePair;
 
@@ -19,11 +19,11 @@ public class Pair implements NameValuePair {
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     @Override
     public String getValue() {
-        return null;
+        return val;
     }
 }

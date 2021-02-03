@@ -1,9 +1,8 @@
 package com.jtchen.util;
 
 import com.alibaba.fastjson.JSONObject;
+import com.jtchen.domain.Pair;
 import org.apache.http.NameValuePair;
-
-import java.net.HttpURLConnection;
 
 /**
  * @author jtchen
