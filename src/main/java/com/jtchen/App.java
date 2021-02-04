@@ -1,6 +1,5 @@
 package com.jtchen;
 
-import com.jtchen.domain.Config;
 import com.jtchen.domain.User;
 import com.jtchen.task.CoinTask;
 import org.apache.log4j.Level;
@@ -29,15 +28,14 @@ public class App {
             logger.error("用户信息检查失败");
             return;
         }
-        var config = Config.getInstance();
         logger.info("✔ 解析用户信息成功o(*￣▽￣*)ブ");
-        logger.info("✔ 亲爱的 " + user.getUname() + "欢迎使用 daily-bili");
+        logger.info("✔ 亲爱的 " + user.getUname() + " 欢迎使用 daily-bili");
         logger.info("✔ 『当前硬币』 " + user.getMoney());
         logger.info("✔ 『当前等级』 " + user.getCurrentLevel());
         logger.info("✔ 『升级所需的经验』 " + user.getRemainingExp());
 
         logger.info("✔ 进入投币环节");
-        var coinTask = new CoinTask(user, config);
+        var coinTask = new CoinTask(user);
         coinTask.run();
     }
 

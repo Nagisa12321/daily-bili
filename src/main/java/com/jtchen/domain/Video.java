@@ -15,11 +15,11 @@ import java.util.Properties;
 public class Video {
     private static final Logger logger = Logger.getLogger(Video.class);
     private static final Properties URLProperties = loadUtil.getURLProperties();
-    private final int aid; // av号
-    private final int uid; // up主id
+    private final String aid; // av号
+    private final String uid; // up主id
     private final String name; // up主名字
 
-    public Video(int aid, int uid, String name) {
+    public Video(String aid, String uid, String name) {
         this.aid = aid;
         this.uid = uid;
         this.name = name;
@@ -33,11 +33,11 @@ public class Video {
                 '}';
     }
 
-    public int getAid() {
+    public String getAid() {
         return aid;
     }
 
-    public int getUid() {
+    public String getUid() {
         return uid;
     }
 

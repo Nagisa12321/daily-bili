@@ -2,7 +2,6 @@ package com.jtchen.task;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.jtchen.domain.Config;
 import com.jtchen.domain.User;
 import com.jtchen.domain.Video;
 import com.jtchen.task.impl.Task;
@@ -24,31 +23,52 @@ public class CoinTask implements Task {
 
     private static final Logger logger = Logger.getLogger(CoinTask.class);
     private static final Properties URLProperties = loadUtil.getURLProperties();
+    private static final Properties TaskProperties = loadUtil.getTaskProperties();
     private final User user;
-    private final Config config;
 
-    public CoinTask(User user, Config config) {
+    public CoinTask(User user) {
         this.user = user;
-        this.config = config;
     }
 
     @Override
     public void run() {
-
+        // 今日已投
+        int todayCoin = getReward();
+        logger.info("✔ 获取你的今日投币: 今天你一共投了 " + todayCoin + " 个硬币");
+        List<Video> videos = getDynamicVideos();
+        // 设置中每日投币数
+        int coinToThrow = Integer.parseInt(TaskProperties.getProperty("coins-to-throw"));
+        int myCoin = Integer.parseInt(user.getMoney());
+        int num = Math.min(myCoin, coinToThrow - todayCoin);
+        logger.info("✔ 经过计算你今天还需投 " + num + " 个硬币");
+        int idx = 0;
+        while (num != 0) {
+            Video video = videos.get(idx++);
+            if (throwCoin(video)) num--;
+            if (idx >= 20) break;
+        }
+        logger.info("✔ 投币任务执行完成");
     }
 
     // 向某个视频投币
-    private void throwCoin(Video video) {
+    private boolean throwCoin(Video video) {
         var data = new JSONObject();
         data.put("aid", video.getAid());
-        data.put("multiply", config.getMultiply());
-        data.put("select_like", config.getSelectLike());
+        data.put("multiply", TaskProperties.getProperty("multiply"));
+        data.put("select_like", TaskProperties.getProperty("selectLike"));
         data.put("cross_domain", "true");
         data.put("csrf", user.getCookie().getBili_jct());
 
-        Request.post(URLProperties.getProperty("throw-coin"), data);
+        JSONObject post = Request.post(URLProperties.getProperty("throw-coin"), data);
 
-        logger.info("✔ 『投币』给『" + video.getName() + "』的视频 『av" + video.getAid() + "』投了 " + config.getMultiply() + "个硬币");
+        if (post == null || post.getInteger("code") == -111) {
+            if (post == null) logger.warn("❌ 『投币』失败, 原因: 获取不到post的JSON");
+            else logger.warn("❌ 『投币』失败, 原因: csrf校验失败");
+            return false;
+        }
+
+        logger.info("✔ 『投币』给『" + video.getName() + "』的视频 『av" + video.getAid() + "』投了 " + TaskProperties.getProperty("multiply") + "个硬币");
+        return true;
     }
 
     // 获取20条推荐视频(未投币)
@@ -57,7 +77,7 @@ public class CoinTask implements Task {
 
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("uid", user.getUid());
-        jsonObject.put("type_list", 8);
+        jsonObject.put("type_list", "8");
 
         JSONObject res = Request.get(URLProperties.getProperty("Dynamic-Videos"), jsonObject);
         if (res == null) {
@@ -72,9 +92,9 @@ public class CoinTask implements Task {
             JSONObject user_profile = desc.getJSONObject("user_profile");
             JSONObject info = user_profile.getJSONObject("info");
 
-            int uid = info.getIntValue("uid");
+            String uid = info.getString("uid");
             String uname = info.getString("uname");
-            int aid = desc.getIntValue("rid_str");
+            String aid = desc.getString("rid_str");
 
             Video video = new Video(aid, uid, uname);
 
@@ -90,7 +110,6 @@ public class CoinTask implements Task {
     private int getReward() {
         JSONObject reward = Request.get(URLProperties.getProperty("reward"));
         JSONObject data = reward.getJSONObject("data");
-
-
+        return data.getInteger("coins_av") / 10;
     }
 }
